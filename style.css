@@ -1,0 +1,108 @@
+/* FULL EDITION */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CORPO COMPLETO DA PAGINA */
+body {
+  background: radial-gradient(circle,rgba(210, 180, 140, 0.650),rgba(210, 180, 140, 0.400),rgba(245, 230, 208, 0.350),rgba(245, 230, 208, 0.300));
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  color: rgb(50, 50, 50);
+}
+
+/* CONTAINER PRINCIPAL */
+#container {
+  width: 360px;
+  margin: 26px auto 0px;
+  padding: 0px 24px;
+}
+
+/* PROFILE */
+#profile {
+  text-align: center;
+}
+
+/* IMAGEM */
+#profile img {
+  width: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.156);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.400);
+}
+
+#profile img:hover {
+  scale: 1.01;
+  transition: 0.2s;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.550);
+}
+
+/* NOME EMPRESA */
+.nomeEmpresa {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 24px;
+  margin: 10px 0px 5px 0px;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.350);
+}
+
+.horario {
+  font-size: 12px;
+  padding: 5px;
+}
+
+/* LINKS */
+
+.titulo {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.280);
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 0px;
+}
+
+ul li a {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.800);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul li a:hover {
+  scale: 1.01;
+  transition: 0.1s;
+  background: rgb(255, 255, 255);
+  border: 1.5px solid rgb(50, 50, 50);
+}
+
+ion-icon {
+  margin-right: 8px;
+}
+.containerlocal {
+  display: flex;
+  justify-content: center;
+}
+
+.containerlocal section {
+  margin: 12px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.300);
+}
