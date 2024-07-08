@@ -8,11 +8,8 @@
 /* CORPO COMPLETO DA PAGINA */
 body {
   background: radial-gradient(circle,rgba(210, 180, 140, 0.650),rgba(210, 180, 140, 0.400),rgba(245, 230, 208, 0.350),rgba(245, 230, 208, 0.300));
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
   font-family: "Roboto", sans-serif;
-  color: rgb(50, 50, 50);
+  overflow: hidden;
 }
 
 /* CONTAINER PRINCIPAL */
@@ -97,9 +94,15 @@ ul li a:hover {
 ion-icon {
   margin-right: 8px;
 }
+
 .containerlocal {
   display: flex;
   justify-content: center;
+}
+
+.mapa {
+  width: 450px;
+  height: 280px;
 }
 
 .containerlocal section {
