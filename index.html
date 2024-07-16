@@ -16,7 +16,7 @@
     
 
     <link rel="stylesheet" href="style.css">
-    <title>LHLinkTree</title>
+    <title>LH Madeiras</title>
 </head>
 <body>
 
@@ -34,9 +34,9 @@
 
     </div> 
 
-      <!-- LINK VENDAS -->
+      <!-- LINKS  -->
     <div>
-      <h4 class="titulo">Vendedores</h4>
+      <h4 class="titulo">Contatos</h4>
       <ul>
 
         <li>
@@ -47,15 +47,60 @@
         </li>
 
         <li>
-          <a href="https://wa.me/+5577999018695?text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento%20com%20a%20consultora%20Vanessa!" target="_blank">
+          <a href="https://wa.me/+557736282156?text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento%20com%20a%20consultora%20Vanessa!"
+           target="_blank">
             <ion-icon name="logo-whatsapp"></ion-icon>
             Consultora Vanessa</a>
         </li>
         
+        <button onclick="showPopup()">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+          <p>
+            Contato Loja
+          </p>
+        </button>
+
+        <div id="popupOverlay" class="popupTela">
+
+          <div class="popupShow">
+
+            <div class="containerX">
+              <button class="closeButton" onclick="closePopup()">X</button>
+            </div>
+            
+            <div class="containerContatos">
+
+              <ul>
+
+                <li>
+                  <a href="https://wa.me/+557799783533?text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento%20com%20a%20consultora%20Marilia!"
+                  target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    Marilia</a>
+                </li>
+        
+                <li>
+                  <a href="https://wa.me/+557799783533?text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento%20com%20a%20consultora%20Vanessa!"
+                  target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    Vanessa</a>
+                </li>
+
+                <li>
+                  <a href="https://wa.me/+557799783533?text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento%20com%20o%20consultor%20Waner!" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    Waner</a>
+                </li>
+
+                </ul>
+
+            </div>
+          </div>
+        </div>
+
         </ul>
       </div>
 
-      <!-- LINK CONTATOS -->
       <div>
         <h4 class="titulo">Outros</h4>
         <ul>
@@ -77,6 +122,13 @@
             <ion-icon name="logo-instagram"></ion-icon>
             Instagram</a>
         </li>
+
+        <li>
+          <a href="https://www.facebook.com/omadeirao?locale=pt_BR" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+            Facebook</a>
+        </li>
+
       </ul>
     </div>
 
@@ -90,6 +142,8 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

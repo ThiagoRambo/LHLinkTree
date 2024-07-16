@@ -53,18 +53,19 @@ body::-webkit-scrollbar {
   text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.350);
 }
 
+/* HORARIO DE FUNCIONAMENTO */
 .horario {
   font-size: 12px;
   padding: 5px;
 }
 
-/* LINKS */
-
+/* TITULO LINKS */
 .titulo {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.280);
   margin-top: 20px;
 }
 
+/* LINKS */
 ul {
   list-style: none;
   display: flex;
@@ -94,10 +95,81 @@ ul li a:hover {
   border: 1.5px solid rgb(50, 50, 50);
 }
 
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.800);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+button p {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+button:hover {
+  transition: 0.1s;
+  background: rgb(255, 255, 255);
+  border: 1.5px solid rgb(50, 50, 50);
+}
+
+.popupTela {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.popupShow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.containerX {
+  display: flex;
+  justify-content: right;
+}
+
+.closeButton {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.containerContatos {
+  padding: 20px 10px 20px 10px;
+}
+
+.containerContatos a {
+  padding: 20px 60px 20px 60px;
+}
+
 ion-icon {
   margin-right: 8px;
 }
 
+button ion-icon {
+  font-size: 16px;
+}
+
+/* LOCALIZAÇÃO */
 .containerlocal {
   display: flex;
   justify-content: center;
