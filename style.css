@@ -107,8 +107,9 @@ button {
 }
 
 button p {
+  text-decoration: none;
   color: rgb(0, 0, 0);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
 }
 
@@ -154,7 +155,7 @@ button:hover {
 }
 
 .containerContatos {
-  padding: 20px 10px 20px 10px;
+  padding: 5px 10px 5px 10px;
 }
 
 .containerContatos a {
@@ -166,6 +167,7 @@ ion-icon {
 }
 
 button ion-icon {
+  color: black;
   font-size: 16px;
 }
 
